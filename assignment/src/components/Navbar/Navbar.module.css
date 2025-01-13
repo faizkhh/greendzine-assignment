@@ -1,0 +1,32 @@
+.navWrapper {
+  color: #ffffff;
+  background-color: #00000033;
+  font-family: var(--font-one);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.navWrapper h1 {
+  text-align: center;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.logoutButton {
+  min-width: 5%;
+  margin: 0px 0px 0px 10px;
+}
+
+.logoutButton button {
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-family: var(--font-one);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+}
